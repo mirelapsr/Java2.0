@@ -1,4 +1,4 @@
 package br.com.fiap.api_rest.dto;
 
-public class FilialResponse {
+public record FilialResponse(Long id, String nome, String endereco) {
 }
